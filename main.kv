@@ -1,0 +1,27 @@
+<Divider>:
+    size_hint_y: None
+    height: 1
+    canvas:
+        Color:
+            rgba: 0.5, 0.5, 0.5, 1
+        Rectangle:
+            pos: self.pos
+            size: self.size
+
+<ListarClientesForm>:
+    BoxLayout:
+        orientation: "vertical"
+        spacing: 10
+
+        ScrollView:
+            BoxLayout:
+                orientation: "vertical"
+                spacing: 20
+                padding: [20, 20]
+                id: clientes_layout
+                               
+        Button:
+            text: 'Voltar ao Menu Inicial'
+            size_hint_y: None
+            height: 50
+            on_release: root.voltar_menu_inicial()
