@@ -3,6 +3,8 @@
 A project done during programming classes at university using JSONFY, KIVY, FLASK, MYSQL AND ROUTES.
 Basically it is a small ordering system for a pizzeria, which registers new customers, saves it in a database, which we can then list, delete and place orders by associating the customers in this database.
 
+To run the program just run the app.py file
+
 Some images below.
 
 Main menu:
